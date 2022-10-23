@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.work.educhatroom"},{"l":"com.work.educhatroom.controller"},{"l":"com.work.educhatroom.model"},{"l":"com.work.educhatroom.repository"},{"l":"com.work.educhatroom.service"}];updateSearchResults();

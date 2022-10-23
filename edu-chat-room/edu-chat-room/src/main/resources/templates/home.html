@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Faculty Management System</title>
+
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+
+</head>
+<body>
+<div class="mt-4">
+    <h1 class="text-center">Dashboard</h1>
+</div>
+<div class="container my-2 mt-6">
+    <div class="row">
+        <div class="col-sm alert alert-success mr-3">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Student Management</h5>
+                    <p class="card-text">Here you can manage all Student List.</p>
+                    <a href="/studentList" class="btn btn-primary">Go To Students List</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm alert alert-primary mr-3">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Faculty Management</h5>
+                    <p class="card-text">Here you can manage all Faculty List.</p>
+                    <a href="/facultyList" class="btn btn-primary">Go To Faculty List</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm alert alert-warning mr-3">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Session Management</h5>
+                    <p class="card-text">Here you can manage all Session List and create Sessions for Students and Faulty.</p>
+                    <a href="/sessionList" class="btn btn-primary">Go To Session</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
